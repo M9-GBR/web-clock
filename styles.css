@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: helvetica;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-decoration: 2px dashed underline;
+    font-size: 20px;
+}
+
+#canvas-wrap {
+    min-height: 0;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    aspect-ratio: 1;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f33;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-size: 20px;
+}
+
+#footer a {
+    color: white;
+}
